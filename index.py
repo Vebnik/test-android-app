@@ -1,5 +1,9 @@
+from src.App import MainApp
+
+
 def main():
-  print('Hello kivi')
+  app = MainApp()
+  app.run()
 
 
 if __name__ == '__main__': main()
