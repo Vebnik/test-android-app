@@ -1,0 +1,27 @@
+#:kivy 2.1.0
+
+<MyButton>:
+  size_hint: (1, 1)
+  pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+  background_color: [0,1,1,1]
+  font_size: 40
+
+
+<MainWindow>:
+  orientation: 'vertical'
+  padding: 5
+
+
+<ButtonsLine>:
+  padding: 2
+  spacing: 2
+  orientation: 'horizontal'
+
+
+<OutputText>:
+  readonly: True
+  multiline: False
+  background_color: [1,1,1,1]
+  halign: 'right'
+  font_size: 60
+  
